@@ -1,0 +1,239 @@
+/* layout */
+
+#box {
+    width: 958px;
+    display: flex;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+    /* padding-top: 20px; */
+    box-sizing: border-box;
+}
+
+p {color: #797979;}
+
+/* .container {
+    width: 958px;
+    background-color: yellowgreen;
+} */
+
+/* box 11111111111111111111111111111111111111111111111111111111111 */
+.box1 {
+    width: 226px;
+    height: 319px;
+    margin-right: 20px;
+    /* border: 1px solid #000; */
+}
+
+.title {
+    width: 226px;
+    height: 44px;
+    /* background-color: rgb(255, 192, 192); */
+}
+.content {
+    width: 226px;
+    height: 275px;
+    /* background-color: #d3d160; */
+}
+
+span {
+    color: rgb(53, 53, 255);
+}
+.member_content {
+    width: 226px;
+    height: 275px;
+    border: 1px solid #d4d4d4;
+}
+.menu {
+    /* background-color: #914747; */
+    text-align: center;
+}
+.menu p {
+    /* background-color: #694d4d; */
+    display: inline-flex;
+    text-align: center;
+}
+.menu p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+/* 222222222222222222222222222222222222222222222222222222222222222222 */
+.box2 {
+    width: 226px;
+    height: 319px;
+    margin-right: 20px;
+}
+.youtube_content {
+    padding: 15px;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 226px;
+    height: 275px;
+    border: 1px solid #d4d4d4;
+}
+.youtube_content .icon {
+    width: 42px;
+    height: 42px;
+    margin: 6px 10px 0 0;
+}
+.youtube_content h4 span {
+    color: #000;
+    font-size: 17px;
+}
+.youtube_content p {
+    /* display: inline-flex; */
+    text-align: left;
+    font-size: 13px;
+    /* background-color: #a86464; */
+    margin-top: 25px;
+}
+.you {
+    width: 185px;
+    height: 122px;
+}
+/* 3333333333333333333333333333333333333333333333333333333333333333333333333333 */
+
+.title2 {
+    width: 466px;
+    height: 44px;
+}
+
+.box3 {
+    width: 466px;
+    height: 319px;
+}
+.title2 {
+    box-sizing: border-box;
+}
+
+.content2 {
+    width: 466px;
+    height: 275px;
+    border: 1px solid #d4d4d4;
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail_box1 {
+    width: 232px;
+    height: 137.5px;
+    border-right: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.detail_box2 {
+    width: 232px;
+    height: 137.5px;
+    border-bottom: 1px solid #d4d4d4;
+}
+.detail_box3 {
+    width: 232px;
+    height: 137.5px;
+    border-right: 1px solid #d4d4d4;
+}
+.detail_box4 {
+    width: 232px;
+    height: 137.5px;
+}
+.mini_box1 {
+    width: 201px;
+    height: 57px;
+    margin: 45px 0 0 30px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* text-align: center; */
+}
+.mini_box1 h5, p {
+}
+
+.mini_box2 {
+    width: 201px;
+    height: 57px;
+    margin: 40px 0 0 20px;
+    display: flex;
+}
+
+.mini_box3 {
+    width: 201px;
+    height: 57px;
+    margin: 35px 0 0 25px;
+    display: flex;
+}
+.mini_box4 {
+    width: 201px;
+    height: 57px;
+    margin: 40px 0 0 30px;
+    display: flex;
+}
+.font04 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/*
+.mini_box1 {
+    width: 232px;
+    height: 137.5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eed1d1;
+    box-sizing: border-box;
+    border-right: 1px solid #000000;
+}
+.mini_box2 {
+    width: 232px;
+    height: 137.5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eed1d1;
+    box-sizing: border-box;
+} */
+
+#sub_box {
+    width: 958px;
+    height: 110px;
+    /* background-color: #bebebe; */
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+.box_left {
+    width: 226px;
+    height: 110px;
+    background-color: #1d6959;
+    margin-right: 20px;
+}
+.point {
+    width: 226px;
+    height: 110px;
+    display: flex;
+    padding: 20px 20px;
+    border: 1px solid #d4d4d4;
+    background-color: #00a7a7;
+
+}
+.notice {
+    width: 712px;
+    height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #d4d4d4;
+}
+.font05 {
+    display: block;
+}
+.font05 ol li {
+    /* list-style: circle; */
+}
+.font06 {
+    font-size: 13px;
+}
+.font07 {
+    margin: 15px 0 0 10px;
+    font-size: 15px;
+}
+
+/* 폰트 컬러 */
+.white {color: #fff;}
+.font05 ol li {color: #797979;}
